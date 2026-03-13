@@ -36,3 +36,29 @@ This project is designed as an educational tool for learning Data Structures and
 | Merge Sort     | O(n log n) | O(n log n)   | O(n log n) | O(n)             |
 | Quick Sort     | O(n log n) | O(n log n)   | O(n²)      | O(log n)         |
 
+## Project Structure 
+Sorting-Visualizer
+│
+├── index.html                # Main page (array input + algorithm selection)
+├── style.css                 # Styling for main page
+├── script.js                 # Logic for main page
+│
+├── visualizer.html           # Visualization page
+├── visualizer.css            # Styling for visualization
+├── visualizer.js             # Controller for visualization
+│
+├── algorithms                # Folder containing sorting algorithms
+│   ├── bubbleSort.js
+│   ├── selectionSort.js
+│   ├── insertionSort.js
+│   ├── mergeSort.js
+│   └── quickSort.js
+│
+
+## How It Works
+1.The user selects or inputs an array on the main page.
+2.A sorting algorithm is selected from the dropdown menu.
+3.The application redirects to the visualization page.
+4.The sorting algorithm executes step-by-step with animation.
+5.Once sorting completes, the algorithm complexities are displayed.
+
