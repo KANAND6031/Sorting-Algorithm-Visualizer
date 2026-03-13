@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+<title>Sorting Visualization</title>
+
+<link rel="stylesheet" href="visualizer.css">
+
+</head>
+
+<body>
+
+<h1>Sorting Visualization</h1>
+
+<button onclick="startSort()">Start</button>
+<button onclick="pauseSort()">Pause</button>
+<button onclick="resumeSort()">Resume</button>
+
+<div id="array"></div>
+
+<div id="complexity">
+
+<h3 id="algoName"></h3>
+
+<p><b>Best Case:</b> <span id="best"></span></p>
+<p><b>Average Case:</b> <span id="avg"></span></p>
+<p><b>Worst Case:</b> <span id="worst"></span></p>
+<p><b>Space Complexity:</b> <span id="space"></span></p>
+
+</div>
+
+<br>
+
+<button id="backBtn" onclick="goHome()">Back to Main Page</button>
+<script src="algorithms/bubbleSort.js"></script>
+<script src="algorithms/selectionSort.js"></script>
+<script src="algorithms/insertionSort.js"></script>
+<script src="algorithms/mergeSort.js"></script>
+<script src="algorithms/quickSort.js"></script>
+
+<script src="visualizer.js"></script>
+
+</body>
+</html>
