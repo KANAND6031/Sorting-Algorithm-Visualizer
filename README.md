@@ -56,9 +56,9 @@ Sorting-Visualizer
 │
 
 ## How It Works
-1.The user selects or inputs an array on the main page.
-2.A sorting algorithm is selected from the dropdown menu.
-3.The application redirects to the visualization page.
-4.The sorting algorithm executes step-by-step with animation.
-5.Once sorting completes, the algorithm complexities are displayed.
+1. The user selects or inputs an array on the main page.
+2. A sorting algorithm is selected from the dropdown menu.
+3. The application redirects to the visualization page.
+4. The sorting algorithm executes step-by-step with animation.
+5. Once sorting completes, the algorithm complexities are displayed.
 
