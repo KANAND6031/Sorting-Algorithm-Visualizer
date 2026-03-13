@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+<title>Sorting Algorithm Visualizer</title>
+
+<link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+
+<div class="container">
+
+<h1>Sorting Visualizer</h1>
+
+<div class="section">
+
+<label>Custom Array</label>
+<input type="text" id="userArray" placeholder="Example: 5,3,8,1,6">
+
+</div>
+
+<div class="section">
+
+<label>Random Array Size</label>
+<input type="range" id="size" min="5" max="30" value="10">
+<div class="sliderValue">Size: <span id="sizeValue">10</span></div>
+<button id="generateBtn" onclick="generateRandom()">Generate Random Array</button>
+<div id="preview"></div>
+
+</div>
+
+<div class="section">
+
+<label>Select Algorithm</label>
+<select id="algorithm">
+<option value="bubble">Bubble Sort</option>
+<option value="selection">Selection Sort</option>
+<option value="insertion">Insertion Sort</option>
+<option value="merge">Merge Sort</option>
+<option value="quick">Quick Sort</option>
+
+</select>
+
+</div>
+
+<button onclick="start()">Start Visualization</button>
+
+</div>
+
+<script src="script.js"></script>
+
+</body>
+</html>
