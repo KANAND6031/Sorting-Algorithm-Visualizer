@@ -18,3 +18,16 @@ This project is designed as an educational tool for learning Data Structures and
   * Insertion Sort
   * Merge Sort
   * Quick Sort
+
+* Custom array input option
+* Random array generation
+
+Start, Pause, and Resume controls for visualization
+
+Element highlighting to show comparisons during sorting
+
+Displays Time Complexity and Space Complexity after the sorting completes
+
+Separate pages for input configuration and visualization
+
+Smooth animated array representation using boxes
