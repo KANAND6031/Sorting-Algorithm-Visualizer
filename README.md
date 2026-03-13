@@ -7,3 +7,14 @@ It helps users understand the internal working of sorting techniques by displayi
 Users can input their own arrays or generate random arrays, choose a sorting algorithm, and observe how the algorithm sorts the data in real time.
 
 This project is designed as an educational tool for learning Data Structures and Algorithms (DSA) concepts in a visual and interactive way.
+
+## Features
+
+* Interactive visualization of multiple sorting algorithms
+
+* Supports the following algorithms:
+* Bubble Sort
+* Selection Sort
+* Insertion Sort
+* Merge Sort
+* Quick Sort
