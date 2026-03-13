@@ -1,3 +1,3 @@
 # Sorting Algorithm Visualizer 
-# HTML, CSS, JavaScript, Sorting Algorithm
+ HTML, CSS, JavaScript, Sorting Algorithm
 
