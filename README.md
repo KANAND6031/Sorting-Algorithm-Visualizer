@@ -1,2 +1,3 @@
-# Project-1
+# Sorting Algorithm Visualizer 
+# HTML, CSS, JavaScript, Sorting Algorithm
 
