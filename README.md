@@ -13,8 +13,8 @@ This project is designed as an educational tool for learning Data Structures and
 * Interactive visualization of multiple sorting algorithms
 
 * Supports the following algorithms:
-* Bubble Sort
-* Selection Sort
-* Insertion Sort
-* Merge Sort
-* Quick Sort
+  * Bubble Sort
+  * Selection Sort
+  * Insertion Sort
+  * Merge Sort
+  * Quick Sort
