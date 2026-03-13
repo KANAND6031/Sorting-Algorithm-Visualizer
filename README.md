@@ -54,6 +54,7 @@ Sorting-Visualizer
 │   ├── mergeSort.js
 │   └── quickSort.js
 │
+└── assets (optional)         # Images / icons if you add later
 
 ## How It Works
 1. The user selects or inputs an array on the main page.
@@ -62,3 +63,19 @@ Sorting-Visualizer
 4. The sorting algorithm executes step-by-step with animation.
 5. Once sorting completes, the algorithm complexities are displayed.
 
+## Educational Purpose
+This project helps students and developers:
+ * Understand how sorting algorithms work internally
+ * Visualize comparisons and swaps
+ * Compare algorithm efficiency
+ * Learn DSA concepts interactively
+
+## Future Improvements
+* Add more sorting algorithms (Heap Sort, Radix Sort, Counting Sort)
+* Display number of comparisons and swaps
+* Show real-time execution time
+* Add side-by-side algorithm comparison
+* Improve UI/UX animations
+
+## Author
+Krishna Anand
