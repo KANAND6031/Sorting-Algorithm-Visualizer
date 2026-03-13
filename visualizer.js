@@ -34,7 +34,7 @@ document.getElementById("complexity").style.display = "block"
 
 function goHome(){
 
-window.location.href = "index.html"
+window.location.href = "main.html"
 
 }
 
