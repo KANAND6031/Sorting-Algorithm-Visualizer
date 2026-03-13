@@ -37,7 +37,7 @@ This project is designed as an educational tool for learning Data Structures and
 | Quick Sort     | O(n log n) | O(n log n)   | O(n²)      | O(log n)         |
 
 ## Project Structure 
-Sorting-Visualizer
+Sorting-Visualizer/
 │
 ├── index.html                # Main page (array input + algorithm selection)
 ├── style.css                 # Styling for main page
@@ -47,7 +47,7 @@ Sorting-Visualizer
 ├── visualizer.css            # Styling for visualization
 ├── visualizer.js             # Controller for visualization
 │
-├── algorithms                # Folder containing sorting algorithms
+├── algorithms/              # Folder containing sorting algorithms
 │   ├── bubbleSort.js
 │   ├── selectionSort.js
 │   ├── insertionSort.js
