@@ -37,31 +37,24 @@ This project is designed as an educational tool for learning Data Structures and
 | Quick Sort     | O(n log n) | O(n log n)   | O(n²)      | O(log n)         |
 
 ## Project Structure 
-taskmanager/
+Sorting-Visualizer
 │
-├── db/
-│   └── db.js
+├── index.html                # Main page (array input + algorithm selection)
+├── style.css                 # Styling for main page
+├── script.js                 # Logic for main page
 │
-├── routes/
-│   ├── authroutes.js
-│   ├── taskroutes.js
-│   └── userroutes.js
+├── visualizer.html           # Visualization page
+├── visualizer.css            # Styling for visualization
+├── visualizer.js             # Controller for visualization
 │
-├── middleware/
-│   ├── authmiddleware.js
-│   ├── validateemail.js
-│   └── validatepassword.js
+├── algorithms                # Folder containing sorting algorithms
+│   ├── bubbleSort.js
+│   ├── selectionSort.js
+│   ├── insertionSort.js
+│   ├── mergeSort.js
+│   └── quickSort.js
 │
-├── public/
-│   ├── signup.html
-│   ├── login.html
-│   ├── dashboard.html
-│   ├── script.js
-│   └── style.css
-│
-├── server.js
-├── package.json
-└── .gitignore
+└─
 
 ## How It Works
 1. The user selects or inputs an array on the main page.
