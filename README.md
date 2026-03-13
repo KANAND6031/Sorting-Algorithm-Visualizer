@@ -21,13 +21,18 @@ This project is designed as an educational tool for learning Data Structures and
 
 * Custom array input option
 * Random array generation
+* Start, Pause, and Resume controls for visualization
+* Element highlighting to show comparisons during sorting
+* Displays Time Complexity and Space Complexity after the sorting completes
+* Separate pages for input configuration and visualization
+* Smooth animated array representation using boxes
 
-Start, Pause, and Resume controls for visualization
+## Algorithms Implemented
+| Algorithm      | Best Case  | Average Case | Worst Case | Space Complexity |
+| -------------- | ---------- | ------------ | ---------- | ---------------- |
+| Bubble Sort    | O(n)       | O(n²)        | O(n²)      | O(1)             |
+| Selection Sort | O(n²)      | O(n²)        | O(n²)      | O(1)             |
+| Insertion Sort | O(n)       | O(n²)        | O(n²)      | O(1)             |
+| Merge Sort     | O(n log n) | O(n log n)   | O(n log n) | O(n)             |
+| Quick Sort     | O(n log n) | O(n log n)   | O(n²)      | O(log n)         |
 
-Element highlighting to show comparisons during sorting
-
-Displays Time Complexity and Space Complexity after the sorting completes
-
-Separate pages for input configuration and visualization
-
-Smooth animated array representation using boxes
